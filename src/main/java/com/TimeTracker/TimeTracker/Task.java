@@ -2,9 +2,6 @@ package com.TimeTracker.TimeTracker;
 
 import java.time.LocalDate;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-
 @Document(collection = "Tasks")
 public class Task {
     @Id
